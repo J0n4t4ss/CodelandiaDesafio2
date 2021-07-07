@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root{
@@ -19,10 +20,20 @@
     color: var(--title-1);
 }
 
+.menu-1 h2{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
 .menu-2{
     display: grid;
     text-align: center;
     padding: 1rem 0;
+}
+
+.menu-2 h1{
+    font-weight: 600;
+    font-size: 1.6rem;
 }
 
 .menu-3{
@@ -49,12 +60,28 @@
     z-index: 100;
     display: grid;
     position: absolute;
+    gap: 1rem;
     width: 30%;
     margin-left: 6rem;
     margin-top: -12rem;
     color: var(--title-1);
-   
-
-
 }
 
+
+/*****CARDS*****/
+
+.text-cards h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.text-cards p{
+    text-align: center;
+    color: var(--description);
+}
+
+
+.cards{
+    display: inline-block;
+}
