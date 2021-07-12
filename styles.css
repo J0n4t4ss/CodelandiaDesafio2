@@ -84,4 +84,12 @@
 
 .cards{
     display: inline-block;
+    width: 100%;
+}
+
+.cards img{
+    width: 19.5rem;
+    height: auto;
+   margin: 1rem 0.6rem;
+   background: var(--description);
 }
